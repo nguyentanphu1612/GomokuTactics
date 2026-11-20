@@ -12,11 +12,10 @@ A feature-rich native Android strategy game featuring a custom **4-tier Grandmas
 
 ## 📸 Screenshots & Demo
 
-> *Tip: Replace the placeholders below with actual screenshots or a short GIF of gameplay, AI hints, and board themes.*
 
 | Home & Match Setup | Grandmaster AI Arena & Replay | Online 1v1 Lobby | Themes & Rules |
 | :---: | :---: | :---: | :---: |
-| ![Home](app/screenshots/home.png) | ![Gameplay](app/screenshots/replay.png) | ![Online](app/screenshots/online.png) | ![Theme](app/screenshots/theme.png) |
+| ![Home](app/screenshots/home.jpg) | ![Gameplay](app/screenshots/replay.jpg) | ![Online](app/screenshots/online.jpg) | ![Theme](app/screenshots/theme.jpg) |
 
 ---
 
