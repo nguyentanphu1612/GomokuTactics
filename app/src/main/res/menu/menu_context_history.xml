@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ctx_replay_match"
+        android:title="Xem lại diễn biến (Replay)" />
+    <item
+        android:id="@+id/ctx_share_match"
+        android:title="Chia sẻ kết quả trận đấu" />
+    <item
+        android:id="@+id/ctx_delete_match"
+        android:title="Xóa bản ghi này" />
+</menu>

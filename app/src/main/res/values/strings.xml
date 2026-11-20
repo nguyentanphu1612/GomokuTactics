@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cờ Ca-Rô Chiến Thuật</string>
+    <string name="splash_subtitle">Đỉnh cao trí tuệ • Chiến thuật 5 quân</string>
+    <string name="splash_loading">Đang khởi tạo đấu trường...</string>
+
+    <!-- Tiêu đề màn hình (ActionBar) -->
+    <string name="title_main">Cờ Ca-Rô Chiến Thuật</string>
+    <string name="title_online_lobby">Đấu Online 1vs1</string>
+    <string name="title_game">Bàn Đấu Ca-Rô</string>
+    <string name="title_history">Lịch Sử Trận Đấu</string>
+    <string name="title_replay">Phát Lại Trận Đấu</string>
+    <string name="title_skins">Giao Diện &amp; Luật Chơi</string>
+    <string name="title_about">Luật Chơi &amp; Giới Thiệu</string>
+
+    <!-- Màn hình chính (MainActivity) -->
+    <string name="stat_total_matches">Tổng trận</string>
+    <string name="stat_wins">Chiến thắng</string>
+    <string name="stat_win_rate">Tỷ lệ thắng</string>
+
+    <string name="section_match_setup">Thiết lập trận đấu</string>
+    <string name="label_game_mode">Chế độ chơi</string>
+    <string name="mode_vs_ai">Đấu với AI</string>
+    <string name="mode_vs_player">2 Người chơi</string>
+    <string name="mode_2_players">2 Người chơi</string>
+
+    <string name="label_board_size">Kích thước bàn cờ</string>
+    <string name="size_15">15 x 15 (Tiêu chuẩn)</string>
+    <string name="size_20">20 x 20 (Mở rộng)</string>
+    <string name="size_30">30 x 30 (Đại chiến)</string>
+
+    <string name="label_time_limit">Thời gian mỗi bên</string>
+    <string name="time_unlimited">Không giới hạn (∞)</string>
+    <string name="time_5m">5 phút / bên</string>
+    <string name="time_10m">10 phút / bên</string>
+    <string name="time_15m">15 phút / bên</string>
+
+    <string name="label_ai_difficulty">Độ khó AI</string>
+    <string name="diff_easy">Dễ</string>
+    <string name="diff_hard">Khó</string>
+    <string name="diff_extreme">Cực hạn</string>
+
+    <string name="btn_start_game">BẮT ĐẦU CHƠI OFFLINE</string>
+    <string name="btn_play_online">ĐẤU ONLINE QUA MÃ PHÒNG</string>
+    <string name="quick_replay_title">Lịch sử &amp; Replay</string>
+    <string name="quick_replay_sub">Xem lại các ván đã đấu</string>
+    <string name="quick_skins_title">Giao diện &amp; Luật</string>
+    <string name="quick_skins_sub">Đổi bàn cờ &amp; chặn 2 đầu</string>
+
+    <!-- Bottom Navigation & Menu -->
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_play">Chơi ngay</string>
+    <string name="nav_history">Lịch sử</string>
+    <string name="nav_skins">Giao diện</string>
+
+    <string name="menu_language">Ngôn ngữ</string>
+    <string name="lang_vietnamese">Tiếng Việt</string>
+    <string name="lang_english">English</string>
+    <string name="menu_board_size">Kích thước bàn</string>
+    <string name="menu_difficulty">Độ khó AI</string>
+    <string name="menu_rules_about">Luật chơi &amp; Thông tin</string>
+    <string name="menu_toggle_sound">Bật / Tắt âm thanh</string>
+    <string name="menu_surrender">Đầu hàng</string>
+
+    <!-- Sảnh Online (OnlineLobbyActivity) -->
+    <string name="online_create_title">Tạo phòng đấu mới</string>
+    <string name="online_create_desc">Tạo mã phòng 6 số theo cấu hình hiện tại và mời bạn bè tham gia.</string>
+    <string name="btn_create_room">TẠO MÃ PHÒNG 6 SỐ</string>
+    <string name="online_waiting_title">Đang chờ đối thủ vào phòng...</string>
+    <string name="btn_share_code">Chia sẻ mã</string>
+    <string name="btn_cancel_room">Hủy phòng</string>
+
+    <string name="online_join_title">Tham gia phòng có sẵn</string>
+    <string name="hint_room_code">Nhập mã phòng 6 chữ số</string>
+    <string name="btn_join_room">VÀO PHÒNG ĐẤU</string>
+
+    <string name="online_connecting">Đang kết nối Firebase...</string>
+    <string name="online_searching">Đang tìm phòng...</string>
+    <string name="online_timeout_create">Hết thời gian kết nối! Kiểm tra lại Internet hoặc Realtime Database.</string>
+    <string name="online_timeout_join">Không thể kết nối máy chủ Firebase!</string>
+    <string name="online_invalid_code">Vui lòng nhập đủ 6 chữ số mã phòng!</string>
+    <string name="online_self_join_error">Bạn không thể tự vào chính phòng mình vừa tạo!</string>
+    <string name="online_share_text">Vào đấu Cờ Ca-Rô Online với tôi! Mã phòng 6 số: %1$s</string>
+    <string name="firebase_error_prefix">Lỗi Firebase: %1$s</string>
+    <string name="err_room_create_failed">Không thể khởi tạo mã phòng trống. Vui lòng thử lại!</string>
+    <string name="err_room_not_found">Mã phòng không tồn tại!</string>
+    <string name="err_room_unavailable">Phòng đã đủ người hoặc đã kết thúc!</string>
+
+    <!-- Màn hình chơi cờ (GameActivity) -->
+    <string name="game_ai_mode_badge">AI: %1$s</string>
+    <string name="game_online_mode_badge">Online #%1$s</string>
+
+    <string name="player_x_p1">Quân X (P1)</string>
+    <string name="player_o_p2">Quân O (P2)</string>
+    <string name="player_x_host">Quân X (Chủ phòng)</string>
+    <string name="player_o_guest">Quân O (Khách)</string>
+
+    <string name="turn_your">Lượt của bạn (X)</string>
+    <string name="turn_ai">AI đang tính toán...</string>
+    <string name="turn_p1">Lượt Người chơi 1 (X)</string>
+    <string name="turn_p2">Lượt Người chơi 2 (O)</string>
+    <string name="turn_opponent_online">Đang chờ đối thủ...</string>
+    <string name="ai_thinking_banner">AI đang phân tích thế cờ...</string>
+
+    <string name="btn_hint">Gợi ý (%1$d)</string>
+    <string name="btn_undo">Hoàn tác</string>
+    <string name="btn_restart">Ván mới</string>
+    <string name="toast_not_enough_undo">Chưa đủ nước đi để hoàn tác</string>
+    <string name="toast_opponent_left">Đối thủ đã thoát phòng!</string>
+
+    <!-- Kết quả & Hộp thoại kết thúc trận -->
+    <string name="result_win">THẮNG</string>
+    <string name="result_loss">THUA</string>
+    <string name="result_draw">HÒA</string>
+    <string name="result_p1_win">P1 THẮNG</string>
+    <string name="result_p2_win">P2 THẮNG</string>
+    <string name="suffix_timeout"> (Hết giờ)</string>
+
+    <string name="dialog_draw_title">🤝 TRẬN ĐẤU HÒA</string>
+    <string name="dialog_you_win_title">🎉 BẠN ĐÃ THẮNG</string>
+    <string name="dialog_ai_win_title">🤖 AI ĐÃ THẮNG</string>
+    <string name="dialog_online_win_title">🎉 CHIẾN THẮNG ONLINE</string>
+    <string name="dialog_online_loss_title">😔 BẠN ĐÃ THUA</string>
+    <string name="dialog_p1_win_title">🎉 NGƯỜI CHƠI 1 (X) THẮNG</string>
+    <string name="dialog_p2_win_title">🎉 NGƯỜI CHƠI 2 (O) THẮNG</string>
+    <string name="game_end_dialog_msg">Bàn cờ: %1$dx%1$d\nSố nước đi: %2$d nước.</string>
+    <string name="game_share_result_text">Kết quả [%1$s] trên bàn %2$dx%2$d trong Cờ Ca-Rô Chiến Thuật!</string>
+    <string name="btn_share_result">Chia sẻ kết quả</string>
+    <string name="btn_back_home">Về trang chủ</string>
+    <string name="btn_play_again">Chơi ván mới</string>
+    <string name="chooser_share_via">Chia sẻ qua</string>
+
+    <!-- Lịch sử & Replay (HistoryActivity, MatchHistoryAdapter, ReplayActivity) -->
+    <string name="filter_all_results">Tất cả kết quả</string>
+    <string name="search_history_hint">Tìm theo chế độ hoặc kích thước...</string>
+    <string name="empty_history_text">Chưa có trận đấu nào được lưu.\nHãy bắt đầu một ván cờ mới!</string>
+    <string name="history_board_badge">%1$s • Bàn %2$dx%2$d</string>
+    <string name="history_total_moves">Tổng số nước đi: %1$d nước</string>
+    <string name="history_share_match_text">Trận Cờ Ca-Rô [%1$s - %2$dx%2$d]: Kết quả %3$s sau %4$d nước đi!</string>
+    <string name="chooser_share_match">Chia sẻ trận đấu</string>
+    <string name="toast_match_deleted">Đã xóa bản ghi trận đấu</string>
+
+    <string name="ctx_menu_title">Tùy chọn trận đấu</string>
+    <string name="ctx_replay">Xem lại diễn biến (Replay)</string>
+    <string name="ctx_share">Chia sẻ kết quả</string>
+    <string name="ctx_delete">Xóa trận đấu</string>
+
+    <string name="replay_header_format">%1$s • Bàn %2$dx%2$d (%3$s)</string>
+    <string name="replay_step_info">Nước đi: %1$d / %2$d</string>
+    <string name="btn_replay_prev">◀ Lùi</string>
+    <string name="btn_replay_next">Tiến ▶</string>
+    <string name="btn_replay_auto">Tự động phát</string>
+    <string name="btn_replay_pause">Tạm dừng</string>
+    <string name="btn_replay_restart">Phát lại từ đầu</string>
+
+    <!-- Giao diện & Luật chơi (SkinShopActivity & GamePrefs) -->
+    <string name="section_rules_settings">Tùy chọn luật &amp; Âm thanh</string>
+    <string name="switch_block_two_ends">Luật chặn 2 đầu (5 quân bị chặn 2 đầu không thắng)</string>
+    <string name="switch_sound_effect">Âm thanh &amp; Rung phản hồi</string>
+    <string name="section_board_themes">Chọn giao diện bàn cờ</string>
+    <string name="badge_in_use">ĐANG DÙNG</string>
+    <string name="toast_block_two_on">Đã bật luật Chặn 2 đầu</string>
+    <string name="toast_block_two_off">Đã tắt luật Chặn 2 đầu</string>
+    <string name="toast_skin_applied">Đã áp dụng giao diện: %1$s</string>
+
+    <string name="theme_classic_name">Gỗ Cổ Điển (X / O)</string>
+    <string name="theme_classic_desc">Bàn gỗ vàng ấm • Quân X Đỏ vs O Xanh</string>
+    <string name="theme_cyber_name">Đấu Trường Đêm (Cyber)</string>
+    <string name="theme_cyber_desc">Nền tối chống mỏi mắt • Neon Vàng &amp; Ngọc</string>
+    <string name="theme_go_name">Cờ Vây Nhật Bản</string>
+    <string name="theme_go_desc">Bàn tre tự nhiên • Quân tròn Đen &amp; Trắng</string>
+    <string name="theme_jade_name">Xanh Ngọc Bích</string>
+    <string name="theme_jade_desc">Nền xanh dịu mắt • Quân Tím vs Cam</string>
+
+    <!-- Giới thiệu & Luật chơi (AboutActivity) -->
+    <string name="about_rules_title">Luật Chơi Cờ Ca-Rô Chiến Thuật</string>
+    <string name="about_rules_body">• Hai bên lần lượt đặt quân X (Đỏ) và O (Xanh) lên các ô trống trên bàn cờ 15x15, 20x20 hoặc 30x30.\n• Người đầu tiên tạo được hàng ngang, hàng dọc hoặc đường chéo gồm đủ 5 quân liên tiếp sẽ giành chiến thắng.\n• Khi bật luật Chặn 2 đầu, chuỗi 5 quân bị đối thủ chặn kín cả 2 đầu sẽ không được tính là thắng.\n• Hỗ trợ thu phóng 2 ngón tay và kéo trượt bàn cờ đối với bản đồ lớn.</string>
+    <string name="about_app_info_title">Thông tin ứng dụng</string>
+    <string name="about_app_info_body">Cờ Ca-Rô Chiến Thuật tích hợp bộ máy AI đa tầng (VCF/VCT, PVS, Zobrist Hashing), chế độ đấu 2 người, đấu Online qua mã phòng 6 số và hệ thống lưu trữ Replay trận đấu.</string>
+    <string name="btn_share_app">Chia sẻ ứng dụng</string>
+    <string name="btn_contact_author">Gửi góp ý qua Email</string>
+    <string name="about_share_text">Thử thách trí tuệ cùng Cờ Ca-Rô Chiến Thuật 15x15 - 30x30!</string>
+    <string name="about_email_subject">Góp ý ứng dụng Cờ Ca-Rô Chiến Thuật</string>
+
+    <string name="player_x_you">Quân X (Bạn)</string>
+    <string name="player_o_you">Quân O (Bạn)</string>
+    <string name="player_o_ai">Quân O (AI)</string>
+
+    <string name="theme_sakura_name">Anh Đào Kyoto</string>
+    <string name="theme_sakura_desc">Sắc hồng phấn thanh lịch • Quân Đỏ hoa đào &amp; Xanh chàm</string>
+    <string name="theme_fire_ice_name">Lửa &amp; Băng</string>
+    <string name="theme_fire_ice_desc">Đấu trường xanh thẫm • Quân tròn Cầu Lửa &amp; Cầu Băng</string>
+</resources>

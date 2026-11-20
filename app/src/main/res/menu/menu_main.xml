@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_sub_lang"
+        android:title="@string/menu_language"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/lang_vi"
+                android:title="@string/lang_vietnamese" />
+            <item
+                android:id="@+id/lang_en"
+                android:title="@string/lang_english" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_sub_size"
+        android:title="@string/menu_board_size"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/size_15"
+                android:title="@string/size_15" />
+            <item
+                android:id="@+id/size_20"
+                android:title="@string/size_20" />
+            <item
+                android:id="@+id/size_30"
+                android:title="@string/size_30" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_sub_diff"
+        android:title="@string/menu_difficulty"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/diff_easy"
+                android:title="@string/diff_easy" />
+            <item
+                android:id="@+id/diff_hard"
+                android:title="@string/diff_hard" />
+            <item
+                android:id="@+id/diff_extreme"
+                android:title="@string/diff_extreme" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_rules"
+        android:title="@string/menu_rules_about"
+        app:showAsAction="never" />
+</menu>

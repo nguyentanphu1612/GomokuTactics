@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/game_sub_diff"
+        android:title="@string/menu_difficulty"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/g_diff_easy"
+                android:title="@string/diff_easy" />
+            <item
+                android:id="@+id/g_diff_hard"
+                android:title="@string/diff_hard" />
+            <item
+                android:id="@+id/g_diff_extreme"
+                android:title="@string/diff_extreme" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/game_toggle_sound"
+        android:title="@string/menu_toggle_sound"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/game_surrender"
+        android:title="@string/menu_surrender"
+        app:showAsAction="never" />
+</menu>

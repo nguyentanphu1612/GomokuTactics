@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gomoku Tactics</string>
+    <string name="splash_subtitle">Peak Strategy • 5-in-a-Row Mastery</string>
+    <string name="splash_loading">Preparing arena...</string>
+
+    <!-- Activity Titles (ActionBar) -->
+    <string name="title_main">Gomoku Tactics</string>
+    <string name="title_online_lobby">Online 1vs1 Lobby</string>
+    <string name="title_game">Gomoku Arena</string>
+    <string name="title_history">Match History</string>
+    <string name="title_replay">Match Replay</string>
+    <string name="title_skins">Themes &amp; Rules</string>
+    <string name="title_about">Rules &amp; About</string>
+
+    <!-- Main Screen (MainActivity) -->
+    <string name="stat_total_matches">Matches</string>
+    <string name="stat_wins">Wins</string>
+    <string name="stat_win_rate">Win Rate</string>
+
+    <string name="section_match_setup">Match Setup</string>
+    <string name="label_game_mode">Game Mode</string>
+    <string name="mode_vs_ai">Vs AI</string>
+    <string name="mode_vs_player">2 Players</string>
+    <string name="mode_2_players">2 Players</string>
+
+    <string name="label_board_size">Board Size</string>
+    <string name="size_15">15 x 15 (Standard)</string>
+    <string name="size_20">20 x 20 (Extended)</string>
+    <string name="size_30">30 x 30 (Grand Arena)</string>
+
+    <string name="label_time_limit">Time per Player</string>
+    <string name="time_unlimited">Unlimited (∞)</string>
+    <string name="time_5m">5 min / player</string>
+    <string name="time_10m">10 min / player</string>
+    <string name="time_15m">15 min / player</string>
+
+    <string name="label_ai_difficulty">AI Difficulty</string>
+    <string name="diff_easy">Easy</string>
+    <string name="diff_hard">Hard</string>
+    <string name="diff_extreme">Extreme</string>
+
+    <string name="btn_start_game">START OFFLINE MATCH</string>
+    <string name="btn_play_online">PLAY ONLINE VIA ROOM CODE</string>
+    <string name="quick_replay_title">History &amp; Replay</string>
+    <string name="quick_replay_sub">Review past matches</string>
+    <string name="quick_skins_title">Themes &amp; Rules</string>
+    <string name="quick_skins_sub">Board skins &amp; 2-end block</string>
+
+    <!-- Bottom Navigation & Menu -->
+    <string name="nav_home">Home</string>
+    <string name="nav_play">Play</string>
+    <string name="nav_history">History</string>
+    <string name="nav_skins">Themes</string>
+
+    <string name="menu_language">Language</string>
+    <string name="lang_vietnamese">Tiếng Việt</string>
+    <string name="lang_english">English</string>
+    <string name="menu_board_size">Board Size</string>
+    <string name="menu_difficulty">AI Difficulty</string>
+    <string name="menu_rules_about">Rules &amp; Info</string>
+    <string name="menu_toggle_sound">Toggle Sound</string>
+    <string name="menu_surrender">Surrender</string>
+
+    <!-- Online Lobby (OnlineLobbyActivity) -->
+    <string name="online_create_title">Create New Room</string>
+    <string name="online_create_desc">Generate a 6-digit room code with your current settings and invite a friend.</string>
+    <string name="btn_create_room">CREATE 6-DIGIT ROOM</string>
+    <string name="online_waiting_title">Waiting for opponent to join...</string>
+    <string name="btn_share_code">Share Code</string>
+    <string name="btn_cancel_room">Cancel Room</string>
+
+    <string name="online_join_title">Join Existing Room</string>
+    <string name="hint_room_code">Enter 6-digit room code</string>
+    <string name="btn_join_room">JOIN ROOM</string>
+
+    <string name="online_connecting">Connecting to Firebase...</string>
+    <string name="online_searching">Searching for room...</string>
+    <string name="online_timeout_create">Connection timed out! Check your Internet or Realtime Database.</string>
+    <string name="online_timeout_join">Unable to connect to Firebase server!</string>
+    <string name="online_invalid_code">Please enter a valid 6-digit room code!</string>
+    <string name="online_self_join_error">You cannot join the room you just created!</string>
+    <string name="online_share_text">Join me in Online Gomoku Tactics! 6-digit Room Code: %1$s</string>
+    <string name="firebase_error_prefix">Firebase Error: %1$s</string>
+    <string name="err_room_create_failed">Unable to allocate an available room code. Please try again!</string>
+    <string name="err_room_not_found">Room code does not exist!</string>
+    <string name="err_room_unavailable">Room is already full or has ended!</string>
+
+    <!-- Game Screen (GameActivity) -->
+    <string name="game_ai_mode_badge">AI: %1$s</string>
+    <string name="game_online_mode_badge">Online #%1$s</string>
+
+    <string name="player_x_p1">Piece X (P1)</string>
+    <string name="player_o_p2">Piece O (P2)</string>
+    <string name="player_x_host">Piece X (Host)</string>
+    <string name="player_o_guest">Piece O (Guest)</string>
+
+    <string name="turn_your">Your Turn (X)</string>
+    <string name="turn_ai">AI is thinking...</string>
+    <string name="turn_p1">Player 1 Turn (X)</string>
+    <string name="turn_p2">Player 2 Turn (O)</string>
+    <string name="turn_opponent_online">Waiting for opponent...</string>
+    <string name="ai_thinking_banner">AI is analyzing the board...</string>
+
+    <string name="btn_hint">Hint (%1$d)</string>
+    <string name="btn_undo">Undo</string>
+    <string name="btn_restart">New Game</string>
+    <string name="toast_not_enough_undo">Not enough moves to undo</string>
+    <string name="toast_opponent_left">Opponent left the room!</string>
+
+    <!-- Match Results & End Dialog -->
+    <string name="result_win">WIN</string>
+    <string name="result_loss">LOSS</string>
+    <string name="result_draw">DRAW</string>
+    <string name="result_p1_win">P1 WIN</string>
+    <string name="result_p2_win">P2 WIN</string>
+    <string name="suffix_timeout"> (Time Out)</string>
+
+    <string name="dialog_draw_title">🤝 MATCH DRAW</string>
+    <string name="dialog_you_win_title">🎉 YOU WON</string>
+    <string name="dialog_ai_win_title">🤖 AI WON</string>
+    <string name="dialog_online_win_title">🎉 ONLINE VICTORY</string>
+    <string name="dialog_online_loss_title">😔 YOU LOST</string>
+    <string name="dialog_p1_win_title">🎉 PLAYER 1 (X) WINS</string>
+    <string name="dialog_p2_win_title">🎉 PLAYER 2 (O) WINS</string>
+    <string name="game_end_dialog_msg">Board: %1$dx%1$d\nTotal moves: %2$d.</string>
+    <string name="game_share_result_text">Result [%1$s] on %2$dx%2$d board in Gomoku Tactics!</string>
+    <string name="btn_share_result">Share Result</string>
+    <string name="btn_back_home">Back to Home</string>
+    <string name="btn_play_again">Play Again</string>
+    <string name="chooser_share_via">Share via</string>
+
+    <!-- History & Replay (HistoryActivity, MatchHistoryAdapter, ReplayActivity) -->
+    <string name="filter_all_results">All Results</string>
+    <string name="search_history_hint">Search by mode or board size...</string>
+    <string name="empty_history_text">No saved matches yet.\nStart a new match to record your history!</string>
+    <string name="history_board_badge">%1$s • %2$dx%2$d Board</string>
+    <string name="history_total_moves">Total moves: %1$d</string>
+    <string name="history_share_match_text">Gomoku Match [%1$s - %2$dx%2$d]: Result %3$s in %4$d moves!</string>
+    <string name="chooser_share_match">Share Match</string>
+    <string name="toast_match_deleted">Match record deleted</string>
+
+    <string name="ctx_menu_title">Match Options</string>
+    <string name="ctx_replay">Watch Replay</string>
+    <string name="ctx_share">Share Result</string>
+    <string name="ctx_delete">Delete Match</string>
+
+    <string name="replay_header_format">%1$s • %2$dx%2$d Board (%3$s)</string>
+    <string name="replay_step_info">Move: %1$d / %2$d</string>
+    <string name="btn_replay_prev">◀ Prev</string>
+    <string name="btn_replay_next">Next ▶</string>
+    <string name="btn_replay_auto">Auto Play</string>
+    <string name="btn_replay_pause">Pause</string>
+    <string name="btn_replay_restart">Restart Replay</string>
+
+    <!-- Themes & Rules (SkinShopActivity & GamePrefs) -->
+    <string name="section_rules_settings">Rules &amp; Audio Settings</string>
+    <string name="switch_block_two_ends">Block Two Ends Rule (5-in-a-row blocked on both ends does not win)</string>
+    <string name="switch_sound_effect">Sound Effects &amp; Haptic Feedback</string>
+    <string name="section_board_themes">Select Board Theme</string>
+    <string name="badge_in_use">ACTIVE</string>
+    <string name="toast_block_two_on">Block Two Ends rule enabled</string>
+    <string name="toast_block_two_off">Block Two Ends rule disabled</string>
+    <string name="toast_skin_applied">Applied theme: %1$s</string>
+
+    <string name="theme_classic_name">Classic Wood (X / O)</string>
+    <string name="theme_classic_desc">Warm wooden board • Red X vs Blue O</string>
+    <string name="theme_cyber_name">Cyber Night Arena</string>
+    <string name="theme_cyber_desc">Dark eye-care theme • Neon Gold &amp; Emerald</string>
+    <string name="theme_go_name">Japanese Goban</string>
+    <string name="theme_go_desc">Natural bamboo grid • Black &amp; White stones</string>
+    <string name="theme_jade_name">Jade Emerald</string>
+    <string name="theme_jade_desc">Soothing mint board • Purple vs Orange pieces</string>
+
+    <!-- About & Rules (AboutActivity) -->
+    <string name="about_rules_title">Gomoku Tactics Rules</string>
+    <string name="about_rules_body">• Two players take turns placing X and O pieces on empty cells of a 15x15, 20x20, or 30x30 board.\n• The first player to form an unbroken line of 5 pieces horizontally, vertically, or diagonally wins.\n• When Block Two Ends is enabled, a 5-piece line blocked at both ends by opponent pieces does not count as a win.\n• Pinch-to-zoom and pan gestures are supported for large boards.</string>
+    <string name="about_app_info_title">About the Application</string>
+    <string name="about_app_info_body">Gomoku Tactics features a multi-tier Grandmaster AI engine (VCF/VCT solver, PVS, Zobrist Hashing), local 2-player mode, real-time 6-digit room Online multiplayer, and full match Replay history.</string>
+    <string name="btn_share_app">Share App</string>
+    <string name="btn_contact_author">Send Feedback via Email</string>
+    <string name="about_share_text">Challenge your mind with Gomoku Tactics 15x15 - 30x30!</string>
+    <string name="about_email_subject">Gomoku Tactics App Feedback</string>
+
+    <string name="player_x_you">Piece X (You)</string>
+    <string name="player_o_you">Piece O (You)</string>
+    <string name="player_o_ai">Piece O (AI)</string>
+
+    <string name="theme_sakura_name">Kyoto Sakura</string>
+    <string name="theme_sakura_desc">Soft blossom ivory • Crimson &amp; Indigo pieces</string>
+    <string name="theme_fire_ice_name">Inferno &amp; Frost</string>
+    <string name="theme_fire_ice_desc">Deep indigo arena • Fire &amp; Ice 3D stones</string>
+</resources>
